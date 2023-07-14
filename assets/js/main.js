@@ -93,7 +93,7 @@
     speed: 600,
     loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 3000,
       disableOnInteraction: false
     },
     slidesPerView: 'auto',
@@ -105,7 +105,7 @@
     breakpoints: {
       320: {
         slidesPerView: 2,
-        spaceBetween: 10
+        spaceBetween: 5
       },
 
       1200: {

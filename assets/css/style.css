@@ -872,7 +872,7 @@ section {
 
 .gallery .gallery-item .gallery-img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
   /* border: 6px solid #fff; */
   position: absolute;
 }
