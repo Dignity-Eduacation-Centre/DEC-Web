@@ -160,6 +160,7 @@ while(i<=viewNos){
   addImage();
   i+=2;
 }
+
 function seeMore(){
   while(i<=viewNos){
   console.log(i);
