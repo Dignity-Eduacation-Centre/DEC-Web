@@ -133,3 +133,43 @@
   new PureCounter();
 
 })()
+
+
+// Gallery Function
+
+const galleryRow = document.querySelector(".gallery-row");
+
+let i = 3;
+let viewNos = 20;
+function addImage() {
+  const galleryImages = document.createElement("div");
+  galleryImages.innerHTML = `<img
+                src='assets/img/gallery/img (${i}).jpg'
+                class="w-100 shadow-1-strong rounded mb-4"
+              />
+          
+              <img
+                src='assets/img/gallery/img (${i+1}).jpg'
+                class="w-100 shadow-1-strong rounded mb-4"
+              />`;
+              galleryImages.classList.add("col-lg-4","mb-4","mb-lg-0")
+            galleryRow.appendChild(galleryImages);
+}
+while(i<=viewNos){
+  console.log(i);
+  addImage();
+  i+=2;
+}
+function seeMore(){
+  while(i<=viewNos){
+  console.log(i);
+  addImage();
+  i+=2;
+}}
+
+document.querySelector(".see-more").addEventListener("click",()=>{
+  viewNos+=20;
+  seeMore();
+})
+
+

@@ -1569,3 +1569,9 @@ section {
   position: absolute;
   top: -50px;
 }
+
+.see-more{
+  border: 1px solid #F4B400;
+  color:#F4B400;
+  border-radius: 50vh;
+}
