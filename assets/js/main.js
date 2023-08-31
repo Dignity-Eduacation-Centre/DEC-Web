@@ -136,6 +136,9 @@
 
 
 // Gallery Function
+// Update Photo Count Here 
+
+let photoCount = 42;
 
 const galleryRow = document.querySelector(".gallery-row");
 
@@ -170,6 +173,10 @@ function seeMore(){
 
 document.querySelector(".see-more").addEventListener("click",()=>{
   viewNos+=20;
+  if(viewNos>photoCount){
+    viewNos=photoCount;
+    document.querySelector(".see-more").classList.add("hide");
+  }
   seeMore();
 })
 

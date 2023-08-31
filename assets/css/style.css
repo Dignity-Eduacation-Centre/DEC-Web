@@ -1575,3 +1575,7 @@ section {
   color:#F4B400;
   border-radius: 50vh;
 }
+
+.hide{
+  visibility: hidden;
+}
