@@ -137,7 +137,7 @@
 const galleryRow = document.querySelector(".gallery-row");
 
 let i = 3;
-let viewNos = 41;
+let viewNos = 52;
 function addImage() {
   const galleryImages = document.createElement("div");
   galleryImages.innerHTML = `<img
