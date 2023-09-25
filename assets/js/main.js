@@ -173,5 +173,3 @@ while(i<=viewNos){
 //   }
 //   seeMore();
 // })
-
-
