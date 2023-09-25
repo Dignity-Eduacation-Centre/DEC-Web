@@ -146,7 +146,7 @@ function addImage() {
               />
           
               <img
-                src='assets/img/gallery/img (${i+1}).jpg'
+                src='assets/img/gallery/img(${i+1}).jpg'
                 class="w-100 shadow-1-strong rounded mb-4"
               />`;
               galleryImages.classList.add("col-lg-4","mb-4","mb-lg-0")
