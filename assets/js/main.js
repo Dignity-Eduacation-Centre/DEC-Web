@@ -141,7 +141,7 @@ let viewNos = 41;
 function addImage() {
   const galleryImages = document.createElement("div");
   galleryImages.innerHTML = `<img
-                src='assets/img/gallery/img (${i}).jpg'
+                src='assets/img/gallery/img(${i}).jpg'
                 class="w-100 shadow-1-strong rounded mb-4"
               />
           
