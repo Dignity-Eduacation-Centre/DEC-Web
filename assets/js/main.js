@@ -132,12 +132,12 @@
 // Gallery Function
 // Update Photo Count Here 
 
-let photoCount = 42;
+// let photoCount = 42;
 
 const galleryRow = document.querySelector(".gallery-row");
 
 let i = 3;
-let viewNos = 20;
+let viewNos = 41;
 function addImage() {
   const galleryImages = document.createElement("div");
   galleryImages.innerHTML = `<img
@@ -158,20 +158,20 @@ while(i<=viewNos){
   i+=2;
 }
 
-function seeMore(){
-  while(i<=viewNos){
-  console.log(i);
-  addImage();
-  i+=2;
-}}
+// function seeMore(){
+//   while(i<=viewNos){
+//   console.log(i);
+//   addImage();
+//   i+=2;
+// }}
 
-document.querySelector(".see-more").addEventListener("click",()=>{
-  viewNos+=20;
-  if(viewNos>photoCount){
-    viewNos=photoCount;
-    document.querySelector(".see-more").classList.add("hide");
-  }
-  seeMore();
-})
+// document.querySelector(".see-more").addEventListener("click",()=>{
+//   viewNos+=20;
+//   if(viewNos>photoCount){
+//     viewNos=photoCount;
+//     document.querySelector(".see-more").classList.add("hide");
+//   }
+//   seeMore();
+// })
 
 
